@@ -12,28 +12,40 @@
 
         <!-- Bootstrap JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <title>The Cafe</title>
     </head>
     <body>
-        <h1>My Favorite TV Shows</h1>
-        <!-- Your HTML code here -->
-        <div class="row">
-            <div class="col-sm-4">
-                <img class="thumbnail" src="https://imagenes.elpais.com/resizer/Li4k6sR51F7xoZDvOXoU1hzoJTc=/1200x0/filters:focal(377.5x212.5:387.5x222.5)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/WZF3MMB4ONHUTB5KBSMFZ7L2OI.JPG" alt="" width="500" height="400">
+        <!-- Put everything in a container so it has a margin -->
+        <div class="container-fluid">
+        
+            <!-- Jumbotron -->
+            <div class="jumbotron">
+                    <h1>The Cafe</h1>
+                    <p>
+                        Some tasty selections
+                    </p>
             </div>
-        </div><div class="row">
-            <div class="col-sm-4">
-                <img class="thumbnail" src="https://static.wikia.nocookie.net/tomandjerry/images/a/af/Bandicam_2019-11-01_09-13-40-754.png/revision/latest/top-crop/width/360/height/360?cb=20191101201546" alt="">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4">
-                <img class="thumbnail" src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F06%2Fone-piece-manga-hiatus-final-story-arc-preparation-info-000.jpg?fit=max&cbr=1&q=90&w=750&h=500" alt="" height="300" width="400">
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <img class="thumbnail" src="" alt="">
+            
+            <nav class="navbar navbar-inverse">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">The Cafe</a>
                 </div>
-            </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    
+                    <!-- Add the navigation links -->
+                    
+                </ul>
+            </nav>
+        
+            <div class="cover">
+                <img class="img-circle"
+                    src="http://www.publicdomainpictures.net/pictures/180000/t2/colorful-wooden-chairs-14665318471m3.jpg"
+                    alt="Cafe interior"
+                    height="400px"
+                >
+            </div>    
         </div>
+        
     </body>
 </html>
